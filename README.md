@@ -4,13 +4,15 @@ description: This Event Ticketing System allows admins to create events and user
 
 how to install from terminal:
 
-1. npm install express mongoose jsonwebtoken bcryptjs dotenv validator
+2. clone the repository into your folder
+
+2. npm install express mongoose jsonwebtoken bcryptjs dotenv validator
 
 setup steps:
 
 1. In MOngoDB create a database with 3 collections: Bookings, Events, Users
 
-2. replace variables in .env folder
+2. create a .env folder and replace variables from .env.example folder with yours
 
 environment variables:
 MONGODB - replace with your mongoDB database link
